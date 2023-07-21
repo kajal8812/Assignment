@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Effigo</title>
+
+    <link href="css/search.css" rel="stylesheet">
+</head>
+<script src="js\jquery-3.7.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#button').click(function () {
+            
+
+            window.location.href = "sample.html";
+        });
+
+    });
+</script>
+
+
+<body>
+
+    <div class="p2r1">
+        <label>Search Items & Services</label>
+        <input type="button" value="search" id="button">
+    </div>
+
+    <hr>
+    <div class="p2r2">
+        <label>Type:<span>*</span></label>&nbsp;&nbsp;&nbsp;
+        <input type="text">
+    </div>
+    <br>
+
+    <div class="p2r3">
+        <label>Category:<span>*</span></label>&nbsp;&nbsp;&nbsp;
+        <input type="text" size="25" id="category"> &nbsp;
+        <label>Sub Category:<span>*</span></label>&nbsp;&nbsp;&nbsp;
+        <input type="text" size="25"> &nbsp;
+        <label>L3 Category:<span>*</span></label>&nbsp;&nbsp;&nbsp;
+        <input type="text" size="25">&nbsp;
+        <label>Item Name:<span>*</span></label>&nbsp;&nbsp;&nbsp;
+        <input type="text" size="25"> &nbsp;
+    </div>
+    <br>
+
+    <div class="p2r4">
+        <div class="p2r4c1">
+            <label>Item Description:<span>*</span></label>
+            <textarea rows="5" cols="50"> </textarea>
+        </div>
+        &nbsp;
+
+        <div class="p2r4c2">
+
+            <div class="p2r4c2f1">
+                <label>Total Quantity:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text">
+            </div>
+
+            <div class="p2r4c2f2">
+                <label>Utilised Quantity:</label>&nbsp;
+                <input type="text">
+            </div>
+
+            <div class="p2r4c2f3">
+                <label>Balance Quantity:</label>&nbsp;
+                <input type="text">
+            </div>
+
+        </div>
+    </div>
+    <br>
+
+    <div class="p2r5">
+
+        <div class="p2r5c1">
+            <label>GL Code:</label>
+            <input type="text">
+        </div>
+
+        <div class="p2r5c2">
+            <label>Suggest Vendor:</label>
+            <select>
+                <option>Select Vendor</option>
+            </select>
+        </div>
+
+    </div>
+    <br><br>
+
+    <div class="p2r6">
+
+
+        <div class="p2r6c1">
+            <label>Qunatity:<span>*</span>
+                <input type="text">
+        </div>
+
+
+        <div class="p2r6c2">
+            <label>UOM:<span>*</span></label>
+            <input type="text">
+        </div>
+
+
+        <div class="p2r6c3">
+            <label>Estimated Price(INR):<span>*</span></label>
+            <input type="text">
+        </div>
+
+
+        <div class="p2r6c4">
+            <label>Price Per:<span>*</span></label>
+            <select>
+                <option>Unit</option>
+            </select>
+        </div>
+
+
+    </div>
+    <br>
+
+
+
+    <label>Item Document:</label>
+    <br>
+    <div class="p2r7">
+        <div class="r71">
+            <label for="imageUpload">Upload</label>
+            <input type="file" id="imageUpload" style="display: none;">
+        </div>
+        <div class="r72">
+            <label for="imageUpload">Start Upload</label>
+            <input type="file" id="imageUpload" style="display: none">
+        </div>
+    </div>
+
+
+    <input type="submit" value="Back">
+    <input type="submit" value="Add">
+
+    <input type="submit" value="Save & Add Item">
+    
+
+
+</body>
+
+</html>
